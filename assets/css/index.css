@@ -1,0 +1,75 @@
+body{
+	background-color: #100f0f;
+	font-family: "Open Sans";
+}
+
+h1{
+	font-family: "Fjalla One" !important;
+    font-weight: var(--g-regular-weight, normal) !important;
+    font-size: 114px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+h2{
+	background-color: transparent;
+	color: #DB162F;
+	font-family: "Great Vibes";
+	font-size: 114px;
+	font-weight: var(--g-regular-weight, normal);
+	letter-spacing: 3px;
+	line-height: 0em;
+	margin-bottom: 55px;
+}
+
+h3{
+	color: #fff;
+	font-weight: var(--g-regular-weight, normal);
+	font-size: 35px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+}
+
+p{
+	color: #F1F1F1;
+	font-weight: var(--g-regular-weight, normal);
+ 	line-height: 2em;
+}
+
+input#email,
+.btn{
+	height: 50px;
+	line-height: 50px;
+}
+
+input#email{
+	background-color: #333333;
+	border: 1px solid #333333;
+}
+
+.btn{
+	background-color: #db162f;
+	color: #fff;
+	font-family: "Fjalla One";
+ 	font-weight: var(--g-regular-weight, normal);
+ 	font-size: 1.5rem;
+ 	padding: 0rem 0rem;
+ 	text-transform: uppercase;
+	width: 100%;
+}
+
+#msg{
+	display: none;
+}
+
+footer{
+	position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p{
+	font-weight: var(--g-regular-weight, normal);
+	line-height: 2em;
+	font-size: 14px;
+}
